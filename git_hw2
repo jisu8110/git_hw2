@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bootstrap 101 Template</title>
+        <!-- Bootstrap -->
+        <style>
+            body {
+                padding: 10px;
+            }
+        </style>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Button to trigger modal -->
+        <a href="#myModal" role="button" class="btn" data-toggle="modal">Launch demo modal</a>
+ 
+        <!-- Modal -->
+        <div class="modal hide" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    ×
+                </button>
+                <h3 id="myModalLabel">Modal header</h3>
+            </div>
+            <div class="modal-body">
+                <p>
+                    One fine body…
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn" data-dismiss="modal" aria-hidden="true">
+                    Close
+                </button>
+                <button class="btn btn-primary">
+       		Save changes
+                </button>
+            </div>
+        </div>
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bootstrap 101 Template</title>
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap-responsive.css" rel="stylesheet">
+        <style>
+            .box {
+                margin: 20px;
+                padding: 15px;
+                background: #eee;
+                height: 1000px;
+            }
+        </style>
+    </head>
+    <body data-spy="scroll" data-target="#navbar">
+        <div id="navbar" class="navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                <ul class="nav">
+                    <li>
+                        <a href="#post1">Post 1</a>
+                    </li>
+                    <li>
+                        <a href="#post2">Post 2</a>
+                    </li>
+                    <li>
+                        <a href="#post3">Post 3</a>
+                    </li>
+                    <li>
+                        <a href="#post4">Post 4</a>
+                    </li>
+                    <li>
+                        <a href="#post5">Post 5</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="post1" class="box">
+            <h1>Post 1</h1>
+        </div>
+        <div id="post2" class="box">
+            <h1>Post 2</h1>
+        </div>
+        <div id="post3" class="box">
+            <h1>Post 3</h1>
+        </div>
+        <div id="post4" class="box">
+            <h1>Post 3</h1>
+        </div>
+        <div id="post5" class="box">
+            <h1>Post 3</h1>
+        </div>
+
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
